@@ -1,0 +1,1049 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 35px;
+    padding: 12px 28px;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    align-items: center;
+  }
+  
+  .navbar li {
+    color: black;
+  }
+  
+  .navbar .menu,
+  .navbar .activities {
+    display: flex;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar .menu a {
+    margin-right: 38px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar .activities a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar a:hover {
+    color: gray;
+    transition: 0.3s;
+  }
+  
+  .navbar .menu a.highlight {
+    color: #7A8CA4;
+  }
+  
+  /*animation and section*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #sec-1 {
+    background: gray;
+    color: yellow;
+    font-weight: 800;
+  }
+  
+  #sec-2 {
+    background-color: #172940;
+  }
+  
+  #sec-3 {
+    background-color: #7a8ca4;
+  }
+  
+  #sec-4 {
+    background-color: red;
+    padding-inline: 1rem;
+  }
+  
+  #sec-5 {
+    background-color: blue;
+  }
+  
+  .scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .scroll-down::before,
+  .scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  
+  .scroll-down::after {
+    top: 35%;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes scroll-down {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      top: 90%;
+    }
+  }
+  
+  .scroll-down2 {
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    bottom: -361px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .scroll-down2::before,
+  .scroll-down2::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  
+  .scroll-down3::after {
+    top: 35%;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes scroll-down3 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      top: 90%;
+    }
+  }
+  
+  .scroll-down3 {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: -1661px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .scroll-down3::before,
+  .scroll-down3::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  
+  .scroll-down3::after {
+    top: 35%;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes scroll-down3 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      top: 90%;
+    }
+  }
+  
+  .scroll-down4 {
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    bottom: -43px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .scroll-down4::before,
+  .scroll-down4::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+  }
+  
+  .scroll-down4::after {
+    top: 35%;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes scroll-down4 {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      top: 90%;
+    }
+  }
+  
+  .scroll-up {
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    bottom: -12px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .scroll-up::before,
+  .scroll-up::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-bottom: transparent;
+    border-right: transparent;
+    animation: scroll-up 1s ease-in-out infinite;
+  }
+  
+  .scroll-up::after {
+    top: 35%;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes scroll-up {
+    100% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 1;
+    }
+    0% {
+      opacity: 0;
+      top: 90%;
+    }
+  }
+  
+  /*general*/
+  
+  .container {
+    font-family: "Ubuntu", sans-serif;
+    display: block;
+  }
+  
+  /*section 1*/
+  .sec-1-title {
+    color: #13f235;
+    position: absolute;
+    top: 80px;
+    width: 800px;
+    left: 22.5%;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .serotonin {
+    top: 230px;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 10px;
+   
+  }
+  
+  .serotonin h1 {
+    color: #172940;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .serotonin h2 {
+    color: #f2eee5;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+  
+  .serotonin p {
+    position: relative;
+    color: yellow;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .middle-text {
+    display: block;
+    font-size: 10px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 600px;
+    font-size: 23px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .serotonin img {
+    width: 300px;
+    position: relative;
+    left: 16%;
+    margin-bottom: 20px;
+    transition: 0.4s;
+  }
+
+  .serotonin img:hover {
+    width: 310px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+  }
+  
+  .serotonin .popuptext {
+    position: absolute;
+    justify-content: center;
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    width: 300px;
+    height: 160px;
+    border-radius: 6px;
+    top: -30%;
+    left: 2%;
+  }
+  
+  .serotonin .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .dopamine {
+    top: 230px;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    right: 10px;
+  }
+  
+  .dopamine h1 {
+    color: #172940;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  .dopamine h2 {
+    color: #f2eee5;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+  
+  .dopamine p {
+    position: relative;
+    color: yellow;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .dopamine img {
+    width: 310px;
+    position: relative;
+    left: 16%;
+    margin-bottom: 20px;
+    transition: 0.4s;
+  }
+
+  .dopamine img:hover {
+    width: 320px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+
+  }
+  
+  .dopamine .popuptext {
+    position: absolute;
+    justify-content: center;
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    width: 300px;
+    height: 160px;
+    border-radius: 6px;
+    top: -30%;
+    right: 2%;
+  }
+  
+  .dopamine .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .popuptext h1 {
+    color: green;
+    font-size: 13px;
+    margin: 0;
+  }
+  
+  .popuptext h2 {
+    color: #172940;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 2px;
+  }
+  
+  .popuptext p {
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+  
+  /*section 2*/
+  .sec-2-title h1 {
+    display: flex;
+    color: white;
+    position: absolute;
+    left: 21%;
+    top: 950px;
+    text-align: center;
+    width: 310px;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .sec-2-title h2 {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 700px;
+    top: 980px;
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+    right: 4%;
+  }
+  
+  .sec-2-title img {
+    top: 900px;
+    left: -20px;
+    position: absolute;
+    display: flex;
+    width: 750px;
+    transition: 0.4s;
+  }
+  
+  .sec-2-title img:hover {
+    top: 900px;
+    left: -30px;
+    position: absolute;
+    display: flex;
+    width: 760px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+  }
+  
+  .sec-2-title h3 {
+    position: absolute;
+    color: red;
+    left: 22%;
+    top: 1200px;
+    margin-bottom: 20px;
+    width: 1000px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .retention {
+    position: absolute;
+    left: 23%;
+    top: 1350px;
+    width: 400px;
+  }
+  
+  .retention h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .retention p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .attention {
+    position: absolute;
+    right: 10%;
+    top: 1350px;
+    width: 400px;
+  }
+  
+  .attention h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .attention p {
+    text-align: center;
+    font-size: 25px;
+    top: 1800px;
+    color: white;
+  }
+  
+  /* section 3*/
+  .container-3 {
+    display: flex;
+    width: "100%";
+    height: "100%";
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .sosmed-drug-content {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .sosmed {
+    position: relative;
+  }
+  
+  .sosmed-img {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+  }
+  
+  .addiction-content {
+    width: "100%" !important;
+    height: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 50px;
+  }
+
+  .addiction-content h1{
+    color: #172940;
+    font-size: 35px;
+  }
+  
+  .addiction {
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .addiction img {
+    width: 400px;
+    height: 266px;
+    transition: 0.4s;
+  }
+
+  .addiction img:hover {
+    width: 420px;
+    height: 286px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+  }
+
+  .addiction-contenttext {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .drunk-content {
+    display: flex;
+    width: "100%";
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .drunk-contenttext {
+    text-align: center;
+    margin-left: 1rem;
+  }
+  
+  .sec-3-title h3 {
+    display: block;
+    color: yellow;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    width: 1050px;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .drunk {
+    width: 210px;
+    height: 210px;
+    padding-bottom: 10px;
+    display: inline-block;
+    transition: 0.4s;
+  }
+
+  .drunk:hover{
+    width: 220px;
+    height: 220px;
+    padding-bottom: 9px;
+    display: inline-block;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+  }
+
+  .sosmed-addiction {
+    position: relative;
+    padding-top: 1rem;
+    background-color: white;
+    height: 250px;
+    width: 50vw;
+    padding-inline: 1rem;
+  }
+  
+  .sosmed-addiction h1 {
+    padding-block: 20px;
+    color: red;
+  }
+  
+  .sosmed-addiction img {
+    width: 80px;
+  }
+  
+  .drug-addiction {
+    position: relative;
+    padding-top: 1rem;
+    background-color: #172940;
+    width: 50vw;
+    padding-inline: 1rem;
+    color: white;
+  }
+  
+  .drug-addiction h1 {
+    padding-block: 20px;
+    color: white;
+  }
+  
+  .drug-addiction img {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 80px;
+    transition: 0.4s;
+  }
+  
+  /*SECTION 4*/
+  #sec-4{
+    background-color: #172940;
+  }
+
+  #sec-4 h1 {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+  }
+  
+  #sec-4 h2 {
+    margin-top: 1rem;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+  }
+
+  #sec-4 h3{
+    color: green;
+    font-size: 28px;
+  }
+
+  #sec-4 h4{
+    color: green;
+    font-size: 28px;
+  }
+  
+  .phone {
+    width: 500px;
+    transition: 0.3s;
+  }
+  
+  .phone:hover {
+    width: 500px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .yticon {
+    width: 50px;
+    transition: 0.3s;
+  }
+  
+  .yticon:hover {
+    width: 60px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .waicon {
+    width: 50px;
+    transition: 0.3s;
+  }
+  
+  .waicon:hover {
+    width: 60px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .tticon {
+    width: 50px;
+    transition: 0.3s;
+  }
+  
+  .tticon:hover {
+    width: 60px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .scicon {
+    width: 50px;
+    transition: 0.3s;
+  }
+  
+  .scicon:hover {
+    width: 60px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .pinteresticon {
+    width: 50px;
+    transition: 0.3s;
+  }
+  
+  .pinteresticon:hover {
+    width: 60px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .fbicon {
+    width: 50px;
+    transition: 0.3s;
+  }
+  
+  .fbicon:hover {
+    width: 60px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+  }
+  
+  .phone-container {
+    position: relative;
+    height: 500px;
+  }
+  
+  .phone-apps {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 100px;
+    left: 150px;
+    width: 170px;
+    gap: 5px;
+  }
+  
+  .phone-desc-lr-container {
+    display: flex;
+  }
+  
+  .phone-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  /*SECTION 5*/
+  #sec-5{
+    padding-inline: 100px;
+    background-color: #7a9698;
+  }
+ 
+  .title-sec5 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    width: 1300px;
+    font-size: 28px;
+  }
+
+  .title-sec5 img{
+    width: 700px;
+  }
+  
+  .intro-sec5 h1 {
+    color: white;
+  }
+  
+  .intro-sec5 img {
+    width: 400px;
+  }
+  
+  .desc-sec5 {
+    color: white;
+  }
+  .sigmund img {
+    width: 400px;
+  }
+
+  .sigmund h1{
+    color: #08F42A;
+  }
+  
+  .sigmund-id img {
+    width: 300px;
+  }
+  
+  .sigmund-id h1,
+  .sigmund-egotext h1,
+  .sigmund-superegotext h1 {
+    color: #172940
+  }
+  
+  .sigmund-ego img {
+    width: 300px;
+  }
+  
+  .sigmund-superego img {
+    width: 450px;
+  }
+  
+  .container-bottom-sec5 {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: justify;
+    margin-top: 100px;
+    gap: 100px;
+  }
+  
+  .sigmund-id-title,
+  .sigmund-ego-title,
+  .sigmund-superego-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-bottom-sec5 img {
+    width: 150px;
+    margin-bottom: 5px;
+  }
+
+  .container-bottom-sec5 {
+    background-color: white;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #7a9698;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}

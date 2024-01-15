@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 35px;
+    padding: 12px 28px;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    align-items: center;
+}
+
+.logo{
+    color: #172940;
+}
+
+.navbar li{ 
+    color: black;
+}
+
+.navbar .menu, .navbar .activities{
+    display: flex;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar .menu a{
+    margin-right: 38px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .activities a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+   color: gray;
+   transition: 0.3s;
+}
+
+.navbar .menu a.highlight{
+    color: #7A8CA4;
+}
+
+/* CONTAINEERRR*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*SECTION 1*/
+#sec-1{
+    background: #172940;
+    color: yellow;
+    font-weight: 800;
+    
+}
+
+#sec-1 img{
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    position: absolute;
+    left: 60%;
+    top: 22%;
+}
+
+#sec-1 h1{
+    font-size: 34px;
+    font-weight: light;
+    width: 600;
+}
+
+#sec-1 p{
+    font-size: 20.5px;
+    font-weight: light;
+    width: 650px;
+    margin-top: 10px;
+}
+
+/*SECTION 2*/
+#sec-2{
+    background: gray;
+    padding-top: 50px;
+    
+}
+
+.title{
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: -300px;
+    line-height: 1.2;
+    width: 400px;
+    margin-right: 350px;
+}
+
+.wrapper{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+    right: 5%;
+    width: 400px;
+
+ }
+
+ .divider{
+    width: 400px;
+    height: 5px;
+    color: gray;
+    border: 1px solid #172940;
+    margin: 10px;
+    background-color: #172940;
+    }
+
+ .women-bi{
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color:  #172940;
+ }
+
+ .men-bi{
+    width: 400px;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color:  #172940;
+   
+ }
+
+.desc-1{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    width: 600px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+
+}
+
+.desc-2{
+    display: inline-block;
+    color: #74B65F;
+    font-size: 25px;
+    width: 650px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#sec-2 h1{
+    font-size: 50px;
+    color: #74B65F;
+    margin-left: 125px;
+    margin-top: 0px;
+    text-align: center;
+    width: 350px;
+} 
+
+#sec-2 h2{
+    font-size: 95px;
+    color: white;
+    width: 600px;
+    text-align: center
+}
+
+#sec-2 h3{
+    color: red;
+}
+
+#sec-2 h4{
+    color: purple;
+}
+
+.boy{
+    display: inline-block;
+    width: 320px;
+    margin-left: 240px;
+    transition: 0.3s;
+}
+
+.boy:hover{
+    display: inline-block;
+    width: 340px;
+    margin-left: 230px;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+    transition: 0.3s;
+}
+
+.girl{
+    display: inline-block;
+    width: 320px;
+    margin-left: 340px;
+    transition: 0.3s;
+}
+
+.girl:hover{
+    display: inline-block;
+    width: 330px;
+    margin-left: 340px;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+/*SECTION 3*/
+
+#sec-3{
+    position: relative;
+    background: #172940;
+    margin: 0;
+    text-align: left;
+}
+
+#sec-3 h1{
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    width: 700px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: -250px
+}
+
+
+#sec-3 img{
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+#sec-3 img:hover{
+    position: absolute;
+    display: inline-block;
+    width: 330px;
+    margin: 0; 
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+    transition: 0.3s;
+}
+
+.wrapper-sec3{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+    right: 5%;
+    width: 400px;
+    margin-left: -250px
+}
+
+.up-sec3{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 2px;
+    color: white;
+}
+
+.divider-sec3{
+    width: 400px;
+    height: 5px;
+    color: gray;
+    border: 1px solid yellow;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.down-h1{
+    color: red;
+    font-size: 60px;
+    margin: 0;
+    width: 400px;
+    text-align: center;
+}
+
+.down-p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+/*SECTION 4*/
+#sec-4{
+    background: #F2EEE5;
+}
+
+#sec-4 h1{
+    color: white;
+    font-size: 100px;
+    display: inline-block;
+}
+
+.sl{
+    display: inline-block;
+    width: 170px;
+    transition: 0.3s;
+}
+
+.sl:hover{
+    display: inline-block;
+    width: 180px;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+    transition: 0.3s;
+}
+
+.s{
+    display: inline-block;
+    width: 170px;
+    transition: 0.3s;
+}
+
+.s:hover{
+    display: inline-block;
+    width: 180px;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+    transition: 0.3s;
+}
+
+#sec-4 h2{
+    color: red;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+#sec-4 h3{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+.dtsm{
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.wrapper-sec4{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 10px;
+    right: 5%;
+    margin-left: 145px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.up-sec4{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.up-men{
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block
+
+}
+
+.up-women{
+    text-align: center;
+    display: inline-block
+
+}
+
+.up-desc{
+   display: inline-block;
+   font-size: 30px;
+   color: red;
+   font-weight: 800;
+} 
+
+.divider-sec4{
+    width: 350px;
+    height: 5px;
+    color: gray;
+    border: 1px solid yellow;
+    margin: 10px;
+    background-color: yellow;
+    text-align: left;
+}
+
+.down-sec4{
+    display: inline-block;
+    font-size: 25px;
+}   
+
+.down-men{
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block
+}
+
+.down-women{
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.down-desc{
+    display: inline-block;
+    font-size: 30px;
+    color: red;
+    font-weight: 800;
+}
+
+
+/*scroll down functions*/
+.scroll-down{
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after{
+    top: 35%;
+    animation-delay: 0.3s;
+}
+
+@keyframes scroll-down{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+ .scroll-down2{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    bottom: -4px; 
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+
+.scroll-down2::before,
+.scroll-down2::after{
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+
+}
+
+.scroll-down2::after{
+    top: 35%;
+    animation-delay: 0.3s;
+}
+
+@keyframes scroll-down2{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+.scroll-down3{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    bottom: -227px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+.scroll-down3::before,
+.scroll-down3::after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down3::after{
+    top: 35%;
+    animation-delay: 0.3s;
+}
+
+@keyframes scroll-down3{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+.scroll-up{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    bottom: -105px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+ }
+
+.scroll-up::before,
+.scroll-up::after{
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-bottom: transparent;
+    border-right: transparent;
+    animation: scroll-up 1s ease-in-out infinite;
+}
+
+.scroll-up::after{
+    top: 35%;
+    animation-delay: 0.3s;
+}
+
+@keyframes scroll-up{
+    100%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+footer {
+    background-color: #F2EEE5;
+    font-weight: bold;
+    font-size: 15px;
+}

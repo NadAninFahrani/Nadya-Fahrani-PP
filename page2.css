@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    color: #172940;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 35px;
+    padding: 12px 28px;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    align-items: center;
+}
+
+.navbar li{ /*what does this do si*/ 
+    color: black;
+}
+
+.navbar .menu, .navbar .activities{
+    display: flex;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar .menu a{
+    margin-right: 38px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .activities a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+   color: gray;
+   transition: 0.3s;
+}
+
+.navbar .menu a.highlight{
+    color: #7A8CA4;
+}
+
+/*sect 1*/
+.sec-1 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: #172940; 
+}
+
+.line{
+    height: 10px;
+    border: 1px solid #172940;
+    margin: 10px;
+   
+}
+
+.threeppl{
+    margin-left: 103px;
+    width: 400px;
+    transition: 0.4s;
+}
+
+.threeppl:hover{
+    margin-left: 95px;
+    width: 415px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.oneppl{
+    margin-left: 9px;
+    width: 400px;
+    transition: 0.4s;
+}
+
+.oneppl:hover{
+    margin-left:2px;
+    width: 415px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.onevtwo{
+    width: 400px;
+    transition: 0.4s;
+}
+
+.onevtwo:hover{
+    width: 415px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.container-line {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+.hr-line {
+    border: 2px solid black;
+  }
+  
+  .vl {
+    border-left: 5px solid green;
+    height: 60px;
+  }
+  
+  .container-vl {
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.p1sect1{
+    display: inline-block;
+    margin-left: 140px;
+    color: #FFBF00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p2sect1{
+    display: inline-block;
+    margin-left: 110px;
+    color: #FFBF00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.p3sect1{
+    display: inline-block;
+    margin-left: 125px;
+    color: #FFBF00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.divider{
+    height: 100px;
+    color: gray;
+    border: 1px solid #172940;
+    margin: 10px;
+    background-color: #172940;
+}
+
+.speakerhead{
+    width: 600px;
+    display: inline-block;
+    margin-bottom: 45px;
+    transition: 0.4s;
+}
+
+.speakerhead:hover{
+    width: 610px;
+    display: inline-block;
+    margin-bottom: 45px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.sec-1 h2{
+    display: inline-block;
+    width: 800px;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    margin-left: -40px;
+    position: absolute;
+    margin-top: 170px;
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .popuptext h1{
+    font-size: 30px;
+    color: red;
+    margin:0;
+    margin-bottom: 10px;
+  }
+
+  .popuptext p{
+    color: white;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 1000px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    margin-top: 377px;
+    left: 40%;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+/*sect 2*/
+.dividedesec2{
+    height: 2px;
+    border: 2px solid #172940;
+}
+
+.sec-2{
+    background-color: red;
+}
+
+.sec2-container{
+    width: 1400px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.maslow h2{
+    font-size: 30px;
+    margin-left: 130px;
+}
+
+.maslow h1{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.pyramid{
+    width: 500px;
+    transition: 0.4s;
+}
+
+.pyramid:hover{
+    width: 520px;
+    display: inline-block;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.sec2-containertext{
+    text-align: center;
+    font-size: 25px;
+    line-height: 34px;
+    color: white;
+}
+
+.sec2-containertext p{
+   margin-bottom: 50px;
+}
+
+.sec-2 h5{
+    color: black;
+    text-align: center;
+    margin: 30px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.sec-2 h6{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/*sect 3*/
+.dividedesec3{
+    height: 2px;
+    border: 2px solid #172940;
+}
+
+.sec-3{
+    background-color: gray;
+}
+
+.sec3-part1{
+    width: 1300px;
+    height: 300px;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec3-part1text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.phonep{
+    display: flex;
+    width: 490px;
+    transition: 0.4s;
+}
+
+.phonep:hover{
+    display: inline-block;
+    width: 510px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+.sec3-part2{
+    width: 1350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-left: 60px;
+}
+
+.sec3-part2text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.dopamine-chart{
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    margin-left: 60px;
+}
+
+.dopamine-chart img{
+    display: flex;
+    width: 410px;
+    transition: 0.4s;
+}
+
+.dopamine-chart img:hover{
+    display: flex;
+    width: 425px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+.sec-3 h3{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 23px;
+    margin-top: 30px;
+    color: red;
+    text-align: center;
+}
+
+.sec-3 h4{
+    margin-top: 15px;
+    text-align: center;
+    color: yellow;
+    margin-bottom: 30px;
+}
+
+.onehundy{
+    width: 300px;
+    transition: 0.4s;
+    margin-left: 120px;
+}
+
+.onehundy:hover{
+    width: 300px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+.seventy{
+    width: 300px;
+    transition: 0.4s;
+}
+
+.seventy:hover{
+    width: 300px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+.fifty{
+    width: 300px;
+    transition: 0.4s;
+}
+
+.fifty:hover{
+    width: 300px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+.thirty{
+    width: 300px;
+    transition: 0.4s;
+}
+
+.thirty:hover{
+    width: 300px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px black);
+}
+
+/*sect 4*/
+.sec-4{
+    background-color: #F2EEE5;
+}
+
+.sec-4-1{
+    width: 1400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-4-1text{
+    text-align: center;
+}
+
+.pfccontainer{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pfccontainer img{
+    width: 500px;
+    transition: 0.4s;
+}
+
+.pfccontainer img:hover{
+    width: 520px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.popupprefontac{
+    visibility: hidden;
+    width: 800px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 377px;
+    left: 5%;
+}
+
+.popupprefontac.show{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.sec-4-2{
+    width: 1350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 90px;
+}
+
+.sec-4-2text{
+    text-align: center;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.amygdalacontainer{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.amygdalacontainer img{
+    width: 500px;
+    transition: 0.4s;
+}
+
+.amygdalacontainer img:hover{
+    width: 520px;
+    transition: 0.4s;
+    cursor: pointer;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(5px 0 20px gray);
+}
+
+.popupamygdala {
+    visibility: hidden;
+    width: 800px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 377px;
+    left: 40%;
+  }
+  
+.popupamygdala.show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    
+  }
+  
+    @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+.sec-4 h3{
+    color: #172940;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #F2EEE5;
+    font-weight: bold;
+    font-size: 15px;
+    color: #172940;
+}
